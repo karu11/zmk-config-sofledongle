@@ -277,7 +277,7 @@ include:
 
 # snake dongle
   - board: nice_nano_v2                                  # <--- add these
-    shield: central_dongle snake_adapter  # <---
+    shield: central_dongle  # <---
     artifact-name: snake_dongle                          # <---
   ### SPLITKB AURORA SOFLE END ###
 
