@@ -274,6 +274,11 @@ include:
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"A_SofleDongle_P\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=n -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: nice_splitkb_aurora_sofle_dongle_oled
     snippet: studio-rpc-usb-uart
+
+# snake dongle
+  - board: nice_nano_v2                                  # <--- add these
+    shield: central_dongle snake_adapter  # <---
+    artifact-name: snake_dongle                          # <---
   ### SPLITKB AURORA SOFLE END ###
 
   ### SETTINGS_RESET START ###
