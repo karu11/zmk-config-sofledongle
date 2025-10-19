@@ -8,6 +8,9 @@ manifest:
     # nice_oled - nice_epaper - dongle_display!view - oled Adapter
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    # snake stuff
+    - name: joaopedropio                          # <--- add these
+      url-base: https://github.com/joaopedropio   # <---
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -29,5 +32,9 @@ manifest:
     - name: zmk-oled-adapter
       remote: mctechnology17
       revision: main
+    # snake
+    - name: snake-module                          # <--- and these
+      remote: joaopedropio                        # <---
+      revision: master                            # <---
   self:
     path: config
